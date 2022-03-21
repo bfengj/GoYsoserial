@@ -35,7 +35,7 @@ func main() {
 		fmt.Print("cc1\ncc2\ncc3\ncc4\ncc5\ncc6\ncc7\ncb1")
 	}
 	if cmd != "" && gadgetName != "" && systemName != "" {
-		fmt.Println("[+] start create the payload!")
+		fmt.Println("[+] start create the payload!\n")
 		poc := gadget.GetPoc(cmd, gadgetName, systemName)
 		fmt.Print(poc)
 	}
